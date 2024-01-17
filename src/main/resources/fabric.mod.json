@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "transfer",
+  "version": "${version}",
+  "name": "transfer",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/cxx34/transfer"
+  },
+  "license": "MIT",
+  "icon": "assets/transfer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.louis.transfer.Transfer"
+    ]
+  },
+  "mixins": [
+    "transfer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": ">=1.20.5-"
+  }
+}
